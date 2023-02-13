@@ -11,13 +11,6 @@
 		4981CEF1299828E700DADB52 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CEF0299828E700DADB52 /* GameViewController.swift */; };
 		4981CEF4299828E700DADB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEF2299828E700DADB52 /* Main.storyboard */; };
 		4981CEF7299828E700DADB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEF5299828E700DADB52 /* LaunchScreen.storyboard */; };
-		4981CEFF299828E700DADB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CEFE299828E700DADB52 /* AppDelegate.swift */; };
-		4981CF01299828E700DADB52 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CF00299828E700DADB52 /* GameViewController.swift */; };
-		4981CF04299828E700DADB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981CF02299828E700DADB52 /* Main.storyboard */; };
-		4981CF07299828E700DADB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981CF05299828E700DADB52 /* LaunchScreen.storyboard */; };
-		4981CF0F299828E700DADB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CF0E299828E700DADB52 /* AppDelegate.swift */; };
-		4981CF11299828E700DADB52 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CF10299828E700DADB52 /* GameViewController.swift */; };
-		4981CF14299828E700DADB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981CF12299828E700DADB52 /* Main.storyboard */; };
 		4981CF16299828E700DADB52 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEE3299828E500DADB52 /* Actions.sks */; };
 		4981CF17299828E700DADB52 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEE3299828E500DADB52 /* Actions.sks */; };
 		4981CF18299828E700DADB52 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEE3299828E500DADB52 /* Actions.sks */; };
@@ -28,8 +21,9 @@
 		4981CF1D299828E700DADB52 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CEE5299828E500DADB52 /* GameScene.swift */; };
 		4981CF1E299828E700DADB52 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981CEE5299828E500DADB52 /* GameScene.swift */; };
 		4981CF1F299828E700DADB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEE6299828E700DADB52 /* Assets.xcassets */; };
-		4981CF20299828E700DADB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEE6299828E700DADB52 /* Assets.xcassets */; };
-		4981CF21299828E700DADB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4981CEE6299828E700DADB52 /* Assets.xcassets */; };
+		49C66199299993F700522876 /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C66198299993F700522876 /* CGPoint+Ext.swift */; };
+		49C6619B29999C8600522876 /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6619A29999C8600522876 /* CGFloat+Ext.swift */; };
+		49C6619E2999BA2F00522876 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6619D2999BA2F00522876 /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,15 +37,11 @@
 		4981CEF3299828E700DADB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4981CEF6299828E700DADB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4981CEFC299828E700DADB52 /* MozaoRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MozaoRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4981CEFE299828E700DADB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4981CF00299828E700DADB52 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		4981CF03299828E700DADB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4981CF06299828E700DADB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4981CF0C299828E700DADB52 /* MozaoRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MozaoRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4981CF0E299828E700DADB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4981CF10299828E700DADB52 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		4981CF13299828E700DADB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4981CF15299828E700DADB52 /* MozaoRun_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MozaoRun_macOS.entitlements; sourceTree = "<group>"; };
+		4981CF2D2998294900DADB52 /* MozaoRun-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MozaoRun-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49C66198299993F700522876 /* CGPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		49C6619A29999C8600522876 /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		49C6619D2999BA2F00522876 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +74,6 @@
 			children = (
 				4981CEE2299828E500DADB52 /* MozaoRun Shared */,
 				4981CEED299828E700DADB52 /* MozaoRun iOS */,
-				4981CEFD299828E700DADB52 /* MozaoRun tvOS */,
-				4981CF0D299828E700DADB52 /* MozaoRun macOS */,
 				4981CEEC299828E700DADB52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,9 +81,11 @@
 		4981CEE2299828E500DADB52 /* MozaoRun Shared */ = {
 			isa = PBXGroup;
 			children = (
+				49C6619C2999BA1F00522876 /* Types */,
+				49C661972999932B00522876 /* Utils */,
 				4981CEE3299828E500DADB52 /* Actions.sks */,
 				4981CEE4299828E500DADB52 /* GameScene.sks */,
-				4981CEE5299828E500DADB52 /* GameScene.swift */,
+				4981CF3029982B2000DADB52 /* Scenes */,
 				4981CEE6299828E700DADB52 /* Assets.xcassets */,
 			);
 			path = "MozaoRun Shared";
@@ -114,34 +104,46 @@
 		4981CEED299828E700DADB52 /* MozaoRun iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4981CF2D2998294900DADB52 /* MozaoRun-iOS-Info.plist */,
 				4981CEEE299828E700DADB52 /* AppDelegate.swift */,
-				4981CEF0299828E700DADB52 /* GameViewController.swift */,
+				4981CF2F29982A7400DADB52 /* Controllers */,
 				4981CEF2299828E700DADB52 /* Main.storyboard */,
 				4981CEF5299828E700DADB52 /* LaunchScreen.storyboard */,
 			);
 			path = "MozaoRun iOS";
 			sourceTree = "<group>";
 		};
-		4981CEFD299828E700DADB52 /* MozaoRun tvOS */ = {
+		4981CF2F29982A7400DADB52 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4981CEFE299828E700DADB52 /* AppDelegate.swift */,
-				4981CF00299828E700DADB52 /* GameViewController.swift */,
-				4981CF02299828E700DADB52 /* Main.storyboard */,
-				4981CF05299828E700DADB52 /* LaunchScreen.storyboard */,
+				4981CEF0299828E700DADB52 /* GameViewController.swift */,
 			);
-			path = "MozaoRun tvOS";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		4981CF0D299828E700DADB52 /* MozaoRun macOS */ = {
+		4981CF3029982B2000DADB52 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				4981CF0E299828E700DADB52 /* AppDelegate.swift */,
-				4981CF10299828E700DADB52 /* GameViewController.swift */,
-				4981CF12299828E700DADB52 /* Main.storyboard */,
-				4981CF15299828E700DADB52 /* MozaoRun_macOS.entitlements */,
+				4981CEE5299828E500DADB52 /* GameScene.swift */,
 			);
-			path = "MozaoRun macOS";
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		49C661972999932B00522876 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				49C66198299993F700522876 /* CGPoint+Ext.swift */,
+				49C6619A29999C8600522876 /* CGFloat+Ext.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49C6619C2999BA1F00522876 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				49C6619D2999BA2F00522876 /* Types.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4981CF1A299828E700DADB52 /* GameScene.sks in Resources */,
-				4981CF04299828E700DADB52 /* Main.storyboard in Resources */,
 				4981CF17299828E700DADB52 /* Actions.sks in Resources */,
-				4981CF07299828E700DADB52 /* LaunchScreen.storyboard in Resources */,
-				4981CF20299828E700DADB52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4981CF14299828E700DADB52 /* Main.storyboard in Resources */,
 				4981CF1B299828E700DADB52 /* GameScene.sks in Resources */,
-				4981CF21299828E700DADB52 /* Assets.xcassets in Resources */,
 				4981CF18299828E700DADB52 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C66199299993F700522876 /* CGPoint+Ext.swift in Sources */,
 				4981CF1C299828E700DADB52 /* GameScene.swift in Sources */,
 				4981CEF1299828E700DADB52 /* GameViewController.swift in Sources */,
+				49C6619E2999BA2F00522876 /* Types.swift in Sources */,
+				49C6619B29999C8600522876 /* CGFloat+Ext.swift in Sources */,
 				4981CEEF299828E700DADB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4981CF1D299828E700DADB52 /* GameScene.swift in Sources */,
-				4981CF01299828E700DADB52 /* GameViewController.swift in Sources */,
-				4981CEFF299828E700DADB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4981CF1E299828E700DADB52 /* GameScene.swift in Sources */,
-				4981CF11299828E700DADB52 /* GameViewController.swift in Sources */,
-				4981CF0F299828E700DADB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,30 +321,6 @@
 				4981CEF6299828E700DADB52 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4981CF02299828E700DADB52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4981CF03299828E700DADB52 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4981CF05299828E700DADB52 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4981CF06299828E700DADB52 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4981CF12299828E700DADB52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4981CF13299828E700DADB52 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -472,12 +444,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9L4G34475;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MozaoRun-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -487,9 +461,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.cisinojr.MozaoRun;
 				PRODUCT_NAME = MozaoRun;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -502,12 +479,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9L4G34475;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MozaoRun-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,9 +496,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.cisinojr.MozaoRun;
 				PRODUCT_NAME = MozaoRun;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
